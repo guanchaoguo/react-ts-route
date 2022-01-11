@@ -9,8 +9,8 @@ export default class Rts extends React.Component<any, any> {
         return (
             <BrowserRouter>
                 <div className="max-w-screen-md mx-auto pt-20">
+                    <RLink></RLink>
                     <Routes>
-                        {/*<RLink></RLink>*/}
                         <Route path="/" element={<R1/>}/>
                         <Route path="/r2" element={<R2/>}/>
                     </Routes>
